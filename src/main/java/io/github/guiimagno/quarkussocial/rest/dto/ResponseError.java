@@ -36,5 +36,5 @@ public class ResponseError {
     public Response withStatusCode(int code){
         return Response.status(code).entity(this).build();
     }
-    
+
 }
